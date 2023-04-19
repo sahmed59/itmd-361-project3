@@ -174,7 +174,6 @@ main{
     width:700px;
     height:500px;
     background-color: #ffcccb;
-    float:center;
     padding:5px;
   }
   
@@ -182,7 +181,6 @@ main{
     width:850px;
     height:600px;
     background-color: #ffcccb;
-    float:center;
     padding:5px;
   }
 }
