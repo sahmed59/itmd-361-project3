@@ -1,0 +1,55 @@
+
+img {/*change this as it effects all other images as well*/
+  height: 400px;
+  max-width: 300px;
+  padding: 35px;
+}
+
+
+footer {
+    position: absolute;
+    height:50px;
+    margin-top: -10px;
+    width: 100%;
+    background: #1E3F66;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+.recipe-content{
+  height: 100px;
+  width: 200 px;
+  vertical-align: middle;
+  display: inline;
+}
+
+.recipe-title{
+  position: relative;
+  float: right;
+  text-align: center;
+  margin: 5px 750px 0px 0px ;
+  font-size: 14pt;
+  color:#1E3F66;
+  font-family: Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.ingredient{
+  position: relative;
+  float: right;
+  margin: -400px 400px 300px 350px ;
+  color:#1E3F66;
+  font-family: Helvetica, sans-serif;
+  display: inline;
+}
+
+.ingredient2{
+  float: right;
+  margin: -400px 400px 0px 0px ;
+  color:#1E3F66;
+  font-family: Helvetica, sans-serif;
+  display: inline;
+}
