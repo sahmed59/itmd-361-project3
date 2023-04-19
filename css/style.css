@@ -156,16 +156,33 @@ main{
 }
 
 #wrapper2{
-  width: 850px;
+  width: 650px;
   height: 600px;
   background-color: #c00;
   margin: 0 auto;
   overflow: hidden;
 }
 #canvas{
-  width: 700px;
+  width: 500px;
   height: 500px;
   background-color: #ccc;
   margin: 50px auto;
 }
 
+@media screen and (min-width: 800px){
+  #canvas{
+    width:700px;
+    height:500px;
+    background-color: #ffcccb;
+    float:center;
+    padding:5px;
+  }
+  
+  #wrapper2{
+    width:850px;
+    height:600px;
+    background-color: #ffcccb;
+    float:center;
+    padding:5px;
+  }
+}
