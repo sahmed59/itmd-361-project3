@@ -4,7 +4,7 @@ function init(){
   var myLocation=new google.maps.LatLng(41.83489913068813, -87.62702440961152);
   var mapOptions={
     center: myLocation,
-    zoom: 16,
+    zoom: 16.5,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControlOptions:{
       position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -46,7 +46,7 @@ function init(){
     content:contentStringRet
   });
   
-  google.maps.event.addListener(markerRet, 'mouseover', function() {
+  google.maps.event.addListener(markerRet, 'click', function() {
     infowindowRet.open(myMap, markerRet);
   });
   
@@ -65,7 +65,7 @@ function init(){
     content:contentStringCrown
   });
   
-  google.maps.event.addListener(markerCrown, 'mouseover', function() {
+  google.maps.event.addListener(markerCrown, 'click', function() {
     infowindowCrown.open(myMap, markerCrown);
   });
   
@@ -84,7 +84,7 @@ function init(){
     content:contentStringPritzker
   });
   
-  google.maps.event.addListener(markerPritzker, 'mouseover', function() {
+  google.maps.event.addListener(markerPritzker, 'click', function() {
     infowindowPritzker.open(myMap, markerPritzker);
   });
   
@@ -103,7 +103,7 @@ function init(){
     content:contentStringPerlstein
   });
   
-  google.maps.event.addListener(markerPerlstein, 'mouseover', function() {
+  google.maps.event.addListener(markerPerlstein, 'click', function() {
     infowindowPerlstein.open(myMap, markerPerlstein);
   });
   
@@ -122,7 +122,7 @@ function init(){
     content:contentStringSiegel
   });
   
-  google.maps.event.addListener(markerSiegel, 'mouseover', function() {
+  google.maps.event.addListener(markerSiegel, 'click', function() {
     infowindowSiegel.open(myMap, markerSiegel);
   });
   
@@ -141,7 +141,7 @@ function init(){
     content:contentStringWishnick
   });
   
-  google.maps.event.addListener(markerWishnick, 'mouseover', function() {
+  google.maps.event.addListener(markerWishnick, 'click', function() {
     infowindowWishnick.open(myMap, markerWishnick);
   });
   
