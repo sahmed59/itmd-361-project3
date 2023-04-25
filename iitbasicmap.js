@@ -46,7 +46,7 @@ function init(){
     content:contentStringRet
   });
   
-  google.maps.event.addListener(markerRet, 'click', function() {
+  google.maps.event.addListener(markerRet, 'mouseover' , function() {
     infowindowRet.open(myMap, markerRet);
   });
   
@@ -65,7 +65,7 @@ function init(){
     content:contentStringCrown
   });
   
-  google.maps.event.addListener(markerCrown, 'click', function() {
+  google.maps.event.addListener(markerCrown, 'mouseover', function() {
     infowindowCrown.open(myMap, markerCrown);
   });
   
@@ -84,7 +84,7 @@ function init(){
     content:contentStringPritzker
   });
   
-  google.maps.event.addListener(markerPritzker, 'click', function() {
+  google.maps.event.addListener(markerPritzker, 'mouseover' , function() {
     infowindowPritzker.open(myMap, markerPritzker);
   });
   
@@ -103,7 +103,7 @@ function init(){
     content:contentStringPerlstein
   });
   
-  google.maps.event.addListener(markerPerlstein, 'click', function() {
+  google.maps.event.addListener(markerPerlstein, 'mouseover' , function() {
     infowindowPerlstein.open(myMap, markerPerlstein);
   });
   
@@ -122,7 +122,7 @@ function init(){
     content:contentStringSiegel
   });
   
-  google.maps.event.addListener(markerSiegel, 'click', function() {
+  google.maps.event.addListener(markerSiegel, 'mouseover', function() {
     infowindowSiegel.open(myMap, markerSiegel);
   });
   
@@ -141,7 +141,7 @@ function init(){
     content:contentStringWishnick
   });
   
-  google.maps.event.addListener(markerWishnick, 'click', function() {
+  google.maps.event.addListener(markerWishnick, 'mouseover', function() {
     infowindowWishnick.open(myMap, markerWishnick);
   });
   
